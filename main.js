@@ -18,8 +18,8 @@ console.log('containerElementの中身 : ', containerElement);
  * 課題3: li要素を全て取得する
  *   - console.logで取得したDOMの中身を確認する
  */
-const liElement = document.getElementsByTagName('li');
-console.log('liElement : ', liElement);
+const liElements = document.getElementsByTagName('li');
+console.log('liElements : ', liElements);
 
 /**
  * 課題4: class値が 'item' の要素を全て取得する
